@@ -1,17 +1,15 @@
+import Header from "./HeaderPage/Header/Header";
+import  Nav  from "./HeaderPage/Nav/Nav";
+import UserPage from "./UserPage/UserPage";
+
 export const App = () => {
   return (
     <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
+   className="container"
     >
-      React homework template 
-      <h1>GAV</h1>
+      <Nav />
+      <Header />
+      <UserPage/>
     </div>
   );
 };

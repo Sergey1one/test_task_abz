@@ -1,0 +1,45 @@
+@import "/src/styles/main.scss";
+
+
+.nav{
+    background-color: $mainBackgroungColor;
+    width: 100vw;
+position: fixed;
+left: 0;
+top:0;
+display: flex;
+justify-content: center;
+
+&-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 360px;
+    padding: 13px 16px;
+    @include tab{
+        width: $tablet;
+        padding: 13px 32px;
+    }
+    @include desk{
+        width: $desktop;
+        padding: 13px 60px;
+    }
+
+    @include widescreen{
+        width: min(100%,1024px);
+        padding: 13px 0;
+    }
+};
+
+&-logo{
+    width: 104px;
+    height: 26px;
+};
+
+&-buttons{
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+}
