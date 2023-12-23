@@ -8,7 +8,7 @@ const UserPage = () => {
     const [users, setUsers] = useState([]);
 
 
-    
+    console.log(data)
 
     const fetchContacts = async(page,count) => {
         const BASE_URL = 'https://frontend-test-assignment-api.abz.agency/api/v1';
