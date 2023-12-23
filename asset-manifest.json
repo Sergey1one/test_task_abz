@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/test_task_abz/static/css/main.7acaea2f.css",
-    "main.js": "/test_task_abz/static/js/main.27466969.js",
+    "main.css": "/test_task_abz/static/css/main.150ef2e0.css",
+    "main.js": "/test_task_abz/static/js/main.f039842b.js",
+    "static/media/pexels-alexandr-podvalny-1227513.jpeg": "/test_task_abz/static/media/pexels-alexandr-podvalny-1227513.be7665f876bbd9138501.jpeg",
+    "static/media/Nunito-VariableFont_wght.woff2": "/test_task_abz/static/media/Nunito-VariableFont_wght.bcfaf5e91f47a2ab2f96.woff2",
+    "static/media/Nunito-VariableFont_wght.woff": "/test_task_abz/static/media/Nunito-VariableFont_wght.ba59322887144593502d.woff",
+    "static/media/Logo.svg": "/test_task_abz/static/media/Logo.8bb55362d01d55393ccc5476d96f0c14.svg",
     "index.html": "/test_task_abz/index.html",
-    "main.7acaea2f.css.map": "/test_task_abz/static/css/main.7acaea2f.css.map",
-    "main.27466969.js.map": "/test_task_abz/static/js/main.27466969.js.map"
+    "main.150ef2e0.css.map": "/test_task_abz/static/css/main.150ef2e0.css.map",
+    "main.f039842b.js.map": "/test_task_abz/static/js/main.f039842b.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.27466969.js"
+    "static/css/main.150ef2e0.css",
+    "static/js/main.f039842b.js"
   ]
 }
